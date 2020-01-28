@@ -1,0 +1,66 @@
+main .dev{
+    padding: 30px;
+    background: rgb(40,40,40);
+    border-radius: 2px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+}
+
+main header{
+    margin: 0 0 10px 0;
+}
+
+main .avatar{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+main .body{
+    display: flex;
+}
+
+main .body *{ text-align: justify; }
+
+main .information{
+    width: 100%;
+    margin-left: 20px;
+    position: relative;
+}
+
+main .name{
+    display: block;
+    font-size: 25px;
+    width: 100%;
+    color: #c5c5c5;
+}
+
+main .techs{
+    display: block;
+    width: 100%;
+    color: #7c7c7c;
+}
+
+main .location{
+    margin-top: 10px;
+    display: block;
+    color: #737373;
+}
+
+main .bio{
+    margin-top: 30px;
+    color: #929292;
+    line-height: 1.4;
+}
+
+main .body a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fa163f;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+main .body a:hover{
+    color: #c21434;
+}

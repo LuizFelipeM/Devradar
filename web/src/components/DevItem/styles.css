@@ -1,0 +1,81 @@
+li.dev-item{
+    position: relative;
+    background: rgb(40,40,40);
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+li.dev-item header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.dev-item header img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+li.dev-item header .user-info{
+    margin-left: 10px;
+}
+
+.user-info strong{
+    display: block;
+    font-size: 16px;
+    color: #c5c5c5;
+}
+
+.user-info span{
+    font-size: 13px;
+    color: #7c7c7c;
+    margin-top: 2px;
+}
+
+li.dev-item p{
+    color: #929292;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+li.dev-item footer{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flexbox;
+    display: flex;
+
+    flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+li.dev-item a{
+    width: 100%;
+    color: #fa163f;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+li.dev-item a:last-of-type{ text-align: right; }
+
+li.dev-item a:hover{
+    color: #c21434;
+}
+
+li .remove{
+    color: #c5c5c5;
+    right: 20px;
+    position: absolute;
+    font-size: 27px;
+    border: none;
+    background: none;
+    top: 20px;
+    cursor: pointer;
+    width: 30px;
+    text-align: center;
+    transition: color .5s;
+}
+
+li .remove:hover{ color: #fa163f; }
